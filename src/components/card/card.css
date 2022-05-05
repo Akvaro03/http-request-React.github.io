@@ -1,0 +1,20 @@
+.contenedor{
+    padding: 20px;
+    /* background: rgb(230, 230, 230); */
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    margin-top: 15px;
+}
+
+.card{
+    height: 50%;
+    box-shadow: 0px 7px 17px 1px rgba(189,189,189,1);
+    transition: all 0.7s;
+}
+.card:hover{
+    transition: all 0.7s;
+    transform: scale(1.1);
+    box-shadow: 0px 7px 17px 14px rgba(189,189,189,1);
+}

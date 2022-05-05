@@ -1,0 +1,11 @@
+.contenedorPrincipal{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    align-items : center;
+    justify-content : center;
+}
+
+.input{
+    width: 70%;
+    margin: auto;
+}
