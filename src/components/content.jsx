@@ -27,7 +27,7 @@ function Contenedores (Valor) {
     return(
         <>
         <InputGroup className="mb-3 input pt-4">
-            <FormControl onChange={event => setItemsFiltrados(Items.filter(item => item.name.includes(event.target.value)))} readOnly 
+            <FormControl onChange={event => setItemsFiltrados(Items.filter(item => item.name.includes(event.target.value)))} 
               placeholder="Personajes"
               aria-label="Recipient's username"
               aria-describedby="basic-addon2"
