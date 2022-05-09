@@ -7,13 +7,11 @@ function Caard (props) {
 
     const handleClose = () => setShow(false);
     const handleShow = () => setShow(true);
-  
         let item = props.item;
-        let foto = props.item.image;
         return (
             <div className="contenedor">
                 <Card style={{ width: '18rem' }}>
-                    <Card.Img variant="top" src={foto} />
+                    <Card.Img variant="top" src={item.image} />
                     <Card.Body>
                         <Card.Title>{item.name}</Card.Title>
                         <Card.Text>

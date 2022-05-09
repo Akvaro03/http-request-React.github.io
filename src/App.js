@@ -1,6 +1,6 @@
 import React from 'react';
 import './App.css';
-import Contenedor from './components/content';
+import Contenedor from './components/contenedor';
 
 function App() {
   return (
